@@ -25,11 +25,6 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Memcached Cluster';
-$string['prefix'] = 'Key prefix';
-$string['prefix_help'] = 'This prefix is used for all key names on the memcached server.
-* If you only have one Moodle instance using this server, you can leave this value default.
-* Due to key length restrictions, a maximum of 5 characters is permitted.';
-$string['prefixinvalid'] = 'Invalid prefix. You can only use a-z A-Z 0-9-_.';
 $string['servers'] = 'Fetch Servers';
 $string['servers_help'] = 'This is the server (or set of servers) that will be called when data is retrieved out of the cache.
 Servers should be defined one per line and consist of a server address and optionally a port and weight.
