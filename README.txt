@@ -1,6 +1,6 @@
 Memcached Cluster Cache Store
-Version: 2.5.0 RC1
-Moodle version: 2.5.0 and up
+Version: 2.7.0
+Moodle version: 2.5.0 and up (tested through 2.7)
 Maintainer: Eric Merrill (merrill@oakland.edu)
 
 
